@@ -1,16 +1,77 @@
-# React + Vite
+## Smart Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A web-based Smart Library Management System developed using React and JavaScript. The project demonstrates how fundamental data structures and algorithms can be applied to a real-world library management problem.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The system helps manage:
 
-## React Compiler
+Books
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Library members
 
-## Expanding the Oxlint configuration
+Borrowing requests
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+Return requests
+
+Active loans
+
+Book availability
+
+Due-date monitoring
+
+Fine prediction
+
+Smart book recommendations
+
+The application runs in the browser and uses Local Storage to persist library data.
+
+## ✨ Main Features
+
+📚 Book Management
+
+Add new books
+
+Update book information
+
+Search books
+
+Search by Book ID, title, author, ISBN, or genre
+
+Track total and available copies
+
+Track borrowing count
+
+## 👥 Member Management
+
+Register library members
+
+Store member information
+
+Track registration date
+
+Track active loans
+
+Search and manage members
+
+## 🔄 Borrow & Return Management
+
+Add borrowing requests to a FIFO queue
+
+Process the oldest borrowing request first
+
+Add return requests to a FIFO queue
+
+Process the oldest return request first
+
+Automatically update book availability
+
+Automatically update member active-loan count
+
+## 🤖 Smart Features
+
+Smart Recommendation – recommends books using borrowing history, preferred genres, popularity, and availability.
+
+Smart Expiry – identifies loans as ON_TRACK, DUE_SOON, or OVERDUE.
+
+Fine Prediction – estimates a future fine based on overdue days.
