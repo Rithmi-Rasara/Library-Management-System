@@ -2,7 +2,7 @@
 
 A web-based Smart Library Management System developed using React and JavaScript. The project demonstrates how fundamental data structures and algorithms can be applied to a real-world library management problem.
 
-📌 Project Overview
+📌 ## Project Overview
 
 The system helps manage:
 
@@ -26,7 +26,7 @@ Smart book recommendations
 
 The application runs in the browser and uses Local Storage to persist library data.
 
-✨ Main Features
+✨ ## Main Features
 
 📚 Book Management
 
@@ -42,7 +42,7 @@ Track total and available copies
 
 Track borrowing count
 
-👥 Member Management
+👥 ## Member Management
 
 Register library members
 
@@ -54,7 +54,7 @@ Track active loans
 
 Search and manage members
 
-🔄 Borrow & Return Management
+🔄 ## Borrow & Return Management
 
 Add borrowing requests to a FIFO queue
 
@@ -68,7 +68,7 @@ Automatically update book availability
 
 Automatically update member active-loan count
 
-🤖 Smart Features
+🤖 ## Smart Features
 
 Smart Recommendation – recommends books using borrowing history, preferred genres, popularity, and availability.
 
