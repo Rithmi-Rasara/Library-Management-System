@@ -1,4 +1,4 @@
-Smart Library Management System
+## Smart Library Management System
 
 A web-based Smart Library Management System developed using React and JavaScript. The project demonstrates how fundamental data structures and algorithms can be applied to a real-world library management problem.
 
