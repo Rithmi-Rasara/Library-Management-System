@@ -1,9 +1,3 @@
-/*
- * FIFO Queue for Borrow and Return operations.
- * enqueue -> rear
- * dequeue -> front
- */
-
 class QueueNode {
     constructor(data) {
         this.data = data;
